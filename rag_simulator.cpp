@@ -42,6 +42,7 @@ public:
         return false;
     }
 
+//function to printGraph
     void printGraph() 
 {
         cout << "\nRESOURCE ALLOCATION GRAPH";
@@ -54,6 +55,8 @@ public:
         }
     }
 };
+
+// Safe scenario without deadlock
 
 void runWithoutDeadlock() {
     RAG g;
